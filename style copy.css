@@ -1,0 +1,414 @@
+/* Notes:
+-> Change fonts to rem (!!)
+-> make site responsive */
+
+/* Overarching stuff */
+
+@font-face {
+    font-family: 'graphikbold';
+    src: url('./webfontkit-20220805-191431/graphikbold-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphikbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikbold_italic';
+    src: url('./webfontkit-20220805-191431/graphikbolditalic-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphikbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphiklight';
+    src: url('./webfontkit-20220805-191431/graphiklight-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphiklight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphiklight_italic';
+    src: url('./webfontkit-20220805-191431/graphiklightitalic-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphiklightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikmedium';
+    src: url('./webfontkit-20220805-191431/graphikmedium-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphikmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikmedium_italic';
+    src: url('./webfontkit-20220805-191431/graphikmediumitalic-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphikmediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikregular';
+    src: url('./webfontkit-20220805-191431/graphikregular-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphikregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphikregular_italic';
+    src: url('./webfontkit-20220805-191431/graphikregularitalic-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphikregularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphiksemibold';
+    src: url('./webfontkit-20220805-191431/graphiksemibold-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphiksemibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'graphiksemibold_italic';
+    src: url('./webfontkit-20220805-191431/graphiksemibolditalic-webfont.woff2') format('woff2'),
+         url('./webfontkit-20220805-191431/graphiksemibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: 'graphikregular';
+    margin: 0;
+    padding: 0;
+    color: #444444;
+}
+
+::selection{
+    background: #FEFCCE
+}
+
+h1{
+    font-family: "graphikbold";
+    margin-top: 20px;
+    font-size: 1.875rem;
+}
+
+h2, h3{
+    font-family: "graphiksemibold"
+}
+
+/* skills on work page */
+#skills{
+    margin-top: 24px;
+}
+
+#self{
+    margin-top: 24px;
+}
+body {
+    background-color: #F7F7F7;
+}
+
+.mockup{
+    width: 100%
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 350px;
+}
+
+/* Wrapper for the password page */
+.wrapper_pass{
+    margin: 270px auto;
+    width: 350px;
+}
+
+#home_links{
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+#links{
+    padding: 10px 0px;
+}
+
+#links a{
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+/*links themselves*/
+
+#twitter_link:hover{
+    color: #109CED;
+    fill: #109CED
+}
+
+#linkedin_link:hover{
+    color: #0E76A8;
+    fill: #0E76A8
+}
+
+/* Font stuff */
+
+p{
+    font-size: 1.125rem
+}
+
+.intro{
+    font-size: 1.25rem;
+}
+
+main{
+    margin-top: 70px;
+    margin-bottom: 10%
+}
+a {
+    color: #444444;
+    fill: #444444;
+    text-decoration: underline;
+}
+a:hover{
+    /* color: #ACA9BB;
+    fill: #ACA9BB; */
+    font-weight: bold;
+    transition-duration: 0.25s;
+    text-decoration: underline;
+}
+
+#lib_field{
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 13.5px;
+    font-size: 1.125rem;
+    color: black;
+    margin-right: 10px; 
+    border: 10px;
+}
+
+#lib_but{
+    height: 44px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 13.5px;
+    color: black;
+    margin-top: 20px;
+}
+
+#about_me:hover{
+    text-decoration: none;
+    color: #CE9178;
+    fill: #CE9178;
+    transition-duration: 1s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+
+nav ul{
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 16px 12px;
+    text-decoration: none;
+
+    /*putting the margin & padding in the anchor so that the whole
+    block can still be linked, even w/ the padding+margin */
+}
+
+/* Align "Jonathan" button in nav to the left */
+#jonathan{
+    padding-left: 0;
+}
+
+/* Align "Resource library" in nav to the right */
+#lib_nav{
+    padding-right: 0;
+}
+
+.smaller {
+    font-size: .875rem;
+}
+
+#intros:hover{
+    color: #FFDA94
+}
+
+.library a{
+    text-decoration: none;
+}
+
+footer{
+    position: static;
+
+    font-size: 14px;
+    color: #969696;
+    margin-top: 30%;
+}
+
+.accordion{
+    font-size: 1.125rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    align-content: flex-start;
+    display: flex;
+    margin-top: 10px;
+}
+
+.accordion_text{
+    text-align: left;
+    font-size: 1.125rem;
+}
+
+/* .accordion svg{
+    margin-right: 7px;
+} */
+
+.panel{
+    padding: 7px 0px;
+    display: none;
+    overflow: none;
+}
+
+/* Setting font size inside the accordion to 1rem */
+.panel p{
+    font-size: 1rem;
+}
+
+/* accordion text */
+
+.active span{
+    font-family: "graphiksemibold";
+}
+
+.library ul li a:hover{
+    transition: 0s;
+    color: #0096FB;
+}
+
+/* Heading under mockup */
+.mockup_heading{
+    font-size: 1.25rem; 
+    font-family: "graphikmedium";
+    line-height: 175%;
+}
+
+/* subheading under heading under mockup */
+.mockup_subheading{
+    color: #969696;
+    line-height: 175%
+}
+
+#onboarding_page{
+    display: none;
+}
+
+#testing_page{
+    display: none;
+}
+
+.password_sec{
+    margin-top: 100px;
+}
+
+.password_field{
+    height: 44px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 0.25px solid #a1a1a1;
+    border-left: 0.25px solid #a1a1a1;
+    border-bottom: 0.25px solid #a1a1a1;
+    border-right: none;
+    padding-left: 13.5px;
+    font-size: 1.125rem;
+    color: black;
+    outline: none;
+}
+
+.password_submit{
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0.25px solid #a1a1a1;
+    border-right: 0.25px solid #a1a1a1;
+    border-bottom: 0.25px solid #a1a1a1;
+    border-left: none;
+    cursor: pointer;
+}
+
+.password{
+    display:inline-flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+/* Gotta make sure the code you're changing is above the media query */
+@media screen and (min-width: 576px) {
+    .wrapper{
+        margin: 0 auto;
+        width: 536px;
+    }
+
+    nav ul{
+        font-size: 1rem;
+        margin: 0 auto auto 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper{
+        margin: 0 auto;
+        width: 728px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .wrapper{
+        margin: 0 auto;
+        width: 880px;
+    }
+
+
+    
+    nav ul{
+        font-size: 1rem;
+        margin: 0 auto auto 112px;
+    }
+}
