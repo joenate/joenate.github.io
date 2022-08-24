@@ -109,6 +109,7 @@ h1{
     font-family: "graphikbold";
     margin-top: 20px;
     font-size: 1.875rem;
+    letter-spacing: normal;
 }
 
 h2, h3{
