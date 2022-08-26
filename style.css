@@ -277,6 +277,7 @@ footer{
     font-size: 14px;
     color: #969696;
     margin-top: 30%;
+    display: none;
 }
 
 .accordion{
