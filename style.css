@@ -400,6 +400,9 @@ footer{
     color: #4294F3;
 }
 
+#here:hover {
+    color: #0096FB
+}
 
 /* Gotta make sure the code you're changing is above the media query */
 @media screen and (min-width: 576px) {
