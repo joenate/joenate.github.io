@@ -149,22 +149,11 @@ body {
     margin-top: 20px;
 }
 
-#links{
-    padding: 10px 0px;
-}
-
-#links a{
-    font-size: 1.25rem;
+#linkedin_link{
     text-decoration: none;
+    color: #969696;
+
 }
-
-/*links themselves*/
-
-#twitter_link:hover{
-    color: #109CED;
-    fill: #109CED
-}
-
 #linkedin_link:hover{
     color: #0E76A8;
     fill: #0E76A8
@@ -177,7 +166,7 @@ p{
 }
 
 .intro{
-    font-size: 1.25rem;
+    font-size: 1.125rem;
 }
 
 main{
@@ -204,7 +193,7 @@ a:hover{
     padding-left: 13.5px;
     font-size: 1.125rem;
     color: black;
-    margin-right: 10px; 
+    margin-right: 10px;
     border: 10px;
 }
 
@@ -274,12 +263,14 @@ nav a {
 
 footer{
     position: static;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #969696;
-    margin: auto;
-    justify-content: center;
-    display: flex;
-    flex-shrink: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 16px auto;
 }
 
 
@@ -327,7 +318,7 @@ footer{
 
 /* Heading under mockup */
 .mockup_heading{
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     font-family: "graphikmedium";
     line-height: 175%;
 }
@@ -430,8 +421,6 @@ footer{
         width: 880px;
     }
 
-
-    
     nav ul{
         font-size: 1rem;
         margin: 0 auto auto 112px;
