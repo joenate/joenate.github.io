@@ -152,7 +152,6 @@ body {
 #linkedin_link{
     text-decoration: none;
     color: #969696;
-
 }
 #linkedin_link:hover{
     color: #0E76A8;
@@ -176,7 +175,6 @@ main{
 a {
     color: #444444;
     fill: #444444;
-    text-decoration: underline;
 }
 a:hover{
     /* color: #ACA9BB;
@@ -262,10 +260,9 @@ nav a {
 }
 
 footer{
-    position: static;
+    position: fixed;
     font-size: 0.875rem;
     color: #969696;
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
